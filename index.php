@@ -547,16 +547,28 @@ require_once 'config.php'; ?>
     </div>
 
     <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 15px;">
-                        <img src="assets/images/logocapt.png" alt="Capt Leads" style="height: 40px; width: auto;">
-                        <h3 style="margin: 0;">Capt <span>Leads</span></h3>
-                    </div>
-                    <p>Tecnologia, mídia e performance trabalhando juntas para impulsionar seus resultados.</p>
-                    <p class="tagline">Sua marca em movimento. Leads em tempo real.</p>
-                </div>
+       <div class="container">
+  <div class="footer-content">
+
+    <div class="footer-logo">
+
+      <div class="logo-header">
+        <img src="assets/images/logocapt.png" alt="Capt Leads">
+
+        <h3>
+          Capt <span>Leads</span>
+        </h3>
+      </div>
+
+      <p class="footer-description">
+        Tecnologia, mídia e performance trabalhando juntas para impulsionar seus resultados.
+      </p>
+
+      <p class="tagline">
+        Sua marca em movimento. Leads em tempo real.
+      </p>
+
+    </div>
                 <div class="footer-links">
                     <h4>Mapa do site</h4>
                     <ul>
