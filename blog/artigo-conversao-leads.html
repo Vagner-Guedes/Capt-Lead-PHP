@@ -117,6 +117,23 @@
         background: var(--bg-secondary);
         padding: 60px 0;
       }
+
+      /* Ajuste para centralizar a logo no footer */
+      .footer-logo {
+        text-align: center;
+      }
+      .footer-logo .logo-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        margin-bottom: 15px;
+      }
+      .footer-logo h3 {
+        margin: 0;
+        font-size: 1.6rem;
+      }
+
       @media (max-width: 992px) {
         .artigo-hero {
           padding: 120px 0 40px;
@@ -144,42 +161,34 @@
       }
     </style>
   </head>
-  body>
+  <body>
     <header class="header">
       <div class="container header-container">
         <div class="logo" style="cursor: pointer;" onclick="window.location.href = '../index.php';">
-    <div class="logo-icon" style="font-size: 2rem; display: flex; align-items: center;">
-        <img src="../assets/images/logocapt.png" alt="Capt Leads" height="100" style="display: block;">
-    </div>
-    <span class="logo-text">Capt<span class="logo-highlight"> Leads</span></span>
-</div>
+          <div class="logo-icon" style="font-size: 2rem; display: flex; align-items: center;">
+            <img src="../assets/images/logocapt.png" alt="Capt Leads" height="100" style="display: block;">
+          </div>
+          <span class="logo-text">Capt<span class="logo-highlight"> Leads</span></span>
+        </div>
         <nav>
           <ul class="nav-links">
             <li><a href="../index.php#home">Início</a></li>
             <li><a href="../index.php#sobre">Sobre</a></li>
             <li><a href="../index.php#solucoes">Soluções</a></li>
-            <li>
-              <a href="../index.php#contato" class="nav-cta">Solicitar demo</a>
-            </li>
+            <li><a href="../index.php#contato" class="nav-cta">Solicitar demo</a></li>
           </ul>
           <div class="mobile-menu"><i class="fas fa-bars"></i></div>
         </nav>
       </div>
     </header>
 
-    <section class="blog" id="blog"></section>
+    <section class="artigo-hero">
       <div class="container">
-       <a href="/Capt-Lead-PHP/#blog" class="btn-voltar">
-    <i class="fas fa-arrow-left"></i> Voltar para o blog</a>
-        
+        <a href="/Capt-Lead-PHP/#blog" class="btn-voltar">
+          <i class="fas fa-arrow-left"></i> Voltar para o blog
+        </a>
         <div class="artigo-categoria">Marketing Digital</div>
-        <h1
-          style="
-            font-size: clamp(1.8rem, 5vw, 3rem);
-            font-weight: 800;
-            margin-bottom: 20px;
-          "
-        >
+        <h1 style="font-size: clamp(1.8rem, 5vw, 3rem); font-weight: 800; margin-bottom: 20px;">
           Como aumentar a conversão de leads em 300%
         </h1>
         <div class="artigo-meta">
@@ -283,25 +292,26 @@
       <div class="container">
         <div class="footer-content">
           <div class="footer-logo">
-            <div class="logo-icon" style="font-size: 2rem">
-              <i class="fas fa-wifi" style="color: var(--primary)"></i>
+            <div class="logo-wrapper">
+              <div class="logo-icon" style="font-size: 2rem">
+                <i class="fas fa-wifi" style="color: var(--primary)"></i>
+              </div>
+              <h3>Capt<span>Leads</span></h3>
             </div>
-            <h3>Capt<span>Leads</span></h3>
             <p>Tecnologia, mídia e performance trabalhando juntas.</p>
           </div>
           <div class="footer-links">
             <h4>Mapa do site</h4>
             <ul>
               <li><a href="../index.php#home">Início</a></li>
-              <li><a href="../index.php#sobre">Sobre</a></li>
-              <li><a href="../index.php#solucoes">Soluções</a></li>
+              
             </ul>
           </div>
           <div class="footer-links">
             <h4>Contato</h4>
             <ul>
               <li>
-                <a href="mailto:contato@captleads.com.br"
+                <a href="mailto:contato.captleads@gmail.com"
                   >contato.captleads@gmail.com</a
                 >
               </li>

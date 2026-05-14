@@ -715,7 +715,7 @@ require_once 'config.php'; ?>
         }
 
         // Inicializar EmailJS
-        emailjs.init("KB24mYA85XBZmEltx");
+        emailjs.init("cDC8368hGAhOKBJ3E");
 
         const form = document.getElementById('leadFormSecure');
         const feedbackDiv = document.getElementById('formFeedback');
@@ -758,7 +758,7 @@ require_once 'config.php'; ?>
                 };
 
                 try {
-                    const response = await emailjs.send('service_0fdcsbe', 'template_lfxk9hr', templateParams);
+                    const response = await emailjs.send('service_29hixz3', 'template_mxoyl6b', templateParams);
 
                     if (response.status === 200) {
                         feedbackDiv.style.display = 'block';
