@@ -297,3 +297,4 @@ document.addEventListener('DOMContentLoaded', function() {
     };
     document.body.addEventListener('touchstart', firstTouchHandler);
 });
+

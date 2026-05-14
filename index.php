@@ -457,7 +457,7 @@ require_once 'config.php'; ?>
                     <a href="javascript:void(0)" style="cursor: pointer;" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
                 </div>
             </div>
-            <div class="contato-form">
+            <div id="contatoform" class="contato-form">
                 <h3>Solicitar contato comercial</h3>
 
                 <form id="leadFormSecure">
@@ -499,7 +499,7 @@ require_once 'config.php'; ?>
         </div>
     </section>
 
-    <section class="blog">
+    <section class="blog" id="blog">
         <div class="container">
             <div class="section-header" data-aos="fade-up">
                 <div class="badge-orange">Conteúdo exclusivo</div>
@@ -665,6 +665,45 @@ require_once 'config.php'; ?>
                 }
             });
         })();
+    </script>
+
+    <script>
+            document.addEventListener('DOMContentLoaded', function() {
+            const demoLink = document.querySelector('a[href="#contato"]'); // link original (desktop)
+            if (!demoLink) return;
+
+            const targetDesktop = document.querySelector('#contato');
+            const targetMobile = document.querySelector('#contatoform');
+            if (!targetDesktop || !targetMobile) return;
+
+            function isMobile() {
+                return window.innerWidth <= 768;
+            }
+
+            function centerElementOnScreen(element) {
+                const rect = element.getBoundingClientRect();
+                const elementHeight = rect.height;
+                const viewportHeight = window.innerHeight;
+                const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                const elementTopAbsolute = rect.top + scrollTop;
+
+                let targetScroll = elementTopAbsolute - (viewportHeight / 2) + (elementHeight / 2) - 15;
+                targetScroll = Math.max(0, targetScroll);
+
+                window.scrollTo({
+                top: targetScroll,
+                behavior: 'smooth'
+                });
+            }
+
+            demoLink.addEventListener('click', function(e) {
+                if (isMobile()) {
+                e.preventDefault();               // impede o redirecionamento padrão para #contato
+                centerElementOnScreen(targetMobile); // rola até o formulário e centraliza
+                }
+                // No desktop, o comportamento padrão (href="#contato") é mantido
+            });
+            });
     </script>
 
     <script>

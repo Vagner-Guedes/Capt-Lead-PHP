@@ -425,6 +425,29 @@ body {
 .sobre {
   background: var(--bg-secondary);
 }
+
+
+.sobre  {
+  padding: 5rem 0;
+  scroll-margin-top: 10px; /* ← Ajuste conforme a altura do seu header fixo */
+}
+
+
+ .como-funciona{
+  padding: 5rem 0;
+  scroll-margin-top: 10px; /* ← Ajuste conforme a altura do seu header fixo */
+}
+
+
+  .solucoes{
+  padding: 5rem 0;
+  scroll-margin-top: 10px; /* ← Ajuste conforme a altura do seu header fixo */
+}
+
+
+ 
+
+
 .como-funciona {
   background: var(--bg-primary);
 }
@@ -1039,6 +1062,17 @@ footer p,
 .beneficios {
   padding: 5rem 0;
 }
+
+
+
+.beneficios {
+  padding: 5rem 0;
+  scroll-margin-top: 10px; /* ← Ajuste conforme a altura do seu header fixo */
+}
+
+
+
+
 .beneficios-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -1116,7 +1150,7 @@ footer p,
 /* CONTATO */
 /* ============================================ */
 .contato {
-  padding: 5rem 0;
+  padding: 6rem 0;
 }
 .contato-container {
   display: grid;
@@ -1164,6 +1198,19 @@ footer p,
   color: white;
   transform: translateY(-3px);
   text-decoration: none; /* Garante que no hover também não tenha */
+}
+
+/* Ajuste para o container do formulário – desktop */
+.contatoform {
+  padding: 5rem 0;
+  
+}
+
+/* (Opcional) Se quiser que no mobile o padding seja menor */
+@media (max-width: 768px) {
+  .contatoform {
+    padding: 2rem 0;
+  }
 }
 
 .contato-form {
