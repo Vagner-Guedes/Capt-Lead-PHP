@@ -543,22 +543,13 @@ require_once 'config.php'; ?>
                     <h4>Mapa do site</h4>
                     <ul>
                         <li><a href="#home">Início</a></li>
-                        <li><a href="#sobre">Sobre</a></li>
-                        <li><a href="#solucoes">Soluções</a></li>
+                        <li><a href="#sobre">Soluções</a></li>
+                        <li><a href="#solucoes">Sobre</a></li>
                         <li><a href="#como-funciona">Como funciona</a></li>
-                        <li><a href="#contato">Contato</a></li>
+                        
                     </ul>
                 </div>
-                <div class="footer-links">
-                    <h4>Soluções</h4>
-                    <ul>
-                        <li><a href="#">Mídia em veículos por app</a></li>
-                        <li><a href="#">Totens interativos</a></li>
-                        <li><a href="#">Sistema de gestão de filas</a></li>
-                        <li><a href="#">TV corporativa</a></li>
-                        <li><a href="#">Telas em elevadores</a></li>
-                    </ul>
-                </div>
+               
                 <div class="footer-links">
                     <h4>Contato</h4>
                     <ul>
