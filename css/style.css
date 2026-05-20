@@ -678,6 +678,19 @@ footer p,
   color: var(--primary) !important;
 }
 
+/* 🟢 NOVO: Estilo específico para celular */
+@media (max-width: 768px) {
+  .hero-solutions {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .solution-tag {
+    flex: 0 0 auto;
+    width: auto;
+  }
+}
 /* LADO DIREITO - IMAGEM ESTÁTICA (opcional) */
 .hero-visual {
   position: relative;
@@ -933,6 +946,20 @@ footer p,
 }
 .feature-item:hover .feature-icon {
   transform: scale(1.05);
+}
+
+/* Ajuste para mobile - espaços menores entre os itens */
+@media (max-width: 768px) {
+  .feature-item {
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+  }
+  .feature-icon {
+    width: 48px;
+    height: 48px;
+    font-size: 1.3rem;
+    border-radius: 1rem;
+  }
 }
 .video-wrapper {
   position: relative;

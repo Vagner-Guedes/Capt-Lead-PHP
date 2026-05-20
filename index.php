@@ -75,8 +75,8 @@ require_once 'config.php'; ?>
                     <i class="fas fa-chart-line"></i> +350% de captura de leads
                 </div>
                 <h1>Sua marca em <span class="highlight-teal">movimento</span> através de <span class="highlight-teal">telas interativas</span></h1>
-                <p class="hero-description">Transforme telas em oportunidades reais de negócio. A Capt Leads conecta sua marca ao público certo por meio de experiências interativas que capturam dados instantaneamente onde as pessoas estão.</p>
-                <div class="hero-buttons">
+        
+            <div class="hero-buttons">
                     <a href="#contato" class="btn btn-primary btn-glow">
                         <i class="fas fa-rocket"></i> Solicitar demonstração
                     </a>
