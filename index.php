@@ -75,8 +75,8 @@ require_once 'config.php'; ?>
                     <i class="fas fa-chart-line"></i> +350% de captura de leads
                 </div>
                 <h1>Sua marca em <span class="highlight-teal">movimento</span> através de <span class="highlight-teal">telas interativas</span></h1>
-        
-            <div class="hero-buttons">
+
+                <div class="hero-buttons">
                     <a href="#contato" class="btn btn-primary btn-glow">
                         <i class="fas fa-rocket"></i> Solicitar demonstração
                     </a>
@@ -546,10 +546,10 @@ require_once 'config.php'; ?>
                         <li><a href="#sobre">Soluções</a></li>
                         <li><a href="#solucoes">Sobre</a></li>
                         <li><a href="#como-funciona">Como funciona</a></li>
-                        
+
                     </ul>
                 </div>
-               
+
                 <div class="footer-links">
                     <h4>Contato</h4>
                     <ul>
@@ -581,6 +581,7 @@ require_once 'config.php'; ?>
                 <li><a href="assets/midiakit/Mídia Kit In Car.pdf" download> Mídia Kit In Car (Veículos por app)</a></li>
                 <li><a href="assets/midiakit/Mídia Kit TV Corporativa.pdf" download> Mídia Kit TV Corporativa</a></li>
                 <li><a href="assets/midiakit/Mídia Kit Totens.pdf" download> Mídia Kit Totens Interativos</a></li>
+                <li><a href="assets/midiakit/Midia Kit cardapio digital.pdf" download> Mídia Kit Cardápio Digital</a></li>
             </ul>
             <button id="fecharMidiaKit" class="fechar-btn">Fechar</button>
         </div>
